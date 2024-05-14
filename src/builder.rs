@@ -30,7 +30,7 @@ impl UrlSet {
     }
 
     pub fn to_xml(&self) -> Result<String,DeError> {
-        to_string(&self);
+        to_string(&self)
     }
 }
 
